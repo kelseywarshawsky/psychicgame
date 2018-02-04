@@ -1,0 +1,32 @@
+h1 {
+	font-size: 40px; 
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	padding-top: 20px;
+}
+
+h2 {
+	font-size: 30px; 
+	text-align: center;
+	font-family: 'Homemade Apple', cursive;
+	padding-top: 20px;
+}
+
+body {
+	font-size: 25px;
+	background-image: url("../images/background.jpg");
+}
+
+#game {
+	height: 400px;
+	width: 750px;
+	margin-top: 150px;
+	margin-right: 300px;
+	margin-left: 300px;
+	background-color: lightgrey;
+	border-color: blue;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 25px;
+	padding: 20px;
+}
