@@ -14,6 +14,8 @@
 
             if (userGuess === computerGuess) {
                 wins++;
+                remainingGuesses = 10;
+                letters.length = 0;
                 alert("Woah! You ARE a psychic!");
             } else {
                 remainingGuesses--;
@@ -23,6 +25,7 @@
                 remainingGuesses = 10;
                 letters.length = 0;
                 losses++;
+                alert("You are DEFINITELY not a psychic!");
             }
 
                 var html =
